@@ -1,0 +1,64 @@
+* {
+  background-color: azure;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+.container {
+  background-color: transparent;
+}
+#card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 89vh;
+}
+#width-card {
+  width: 50%;
+}
+
+/* start work */
+.list-group {
+  background-color: transparent;
+}
+
+.add-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-area,
+input[type="text"],
+input[type="submit"] {
+  border: none;
+  background-color: transparent;
+  margin: 0px 5px 0px 5px;
+  height: 30px;
+}
+input[type="text"] {
+  width: 80%;
+  margin-left: 0px;
+}
+input[type="checkbox"] {
+  margin-right: 4%;
+}
+#title-card {
+  height: 10px;
+  margin-left: 0px;
+  background-color: beige;
+}
+span {
+  background-color: transparent;
+}
+.cross-text {
+  text-decoration: line-through;
+}
+footer {
+  margin-left: 20px;
+}
+
+/* end work */
